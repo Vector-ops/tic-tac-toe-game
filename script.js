@@ -122,5 +122,3 @@ function clearWinner() {
         winner.innerHTML = '';
     }
  }
-
- //draw isnt working
