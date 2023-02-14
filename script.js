@@ -72,7 +72,10 @@ function checkWinner() {
             drawScore();
             win = true;
             break;
-        } 
+        } else if(player1.length === 5 && player2.length === 4) {
+            winner.innerHTML = "Draw";
+            drawScore();
+        }
     }
 
     if(win == true) {
